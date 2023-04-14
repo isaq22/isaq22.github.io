@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not Found</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<style>
+		body {
+			width: 800px;
+			height: 600px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<h1>Not Found</h1>
+	<p>The requested URL has not been found @ isaqathe.org</p>
+	<hr>
+	<pre>User Agent: <span id="user-agent"></span></pre>
+
+	<script>
+		var user_agent = navigator.userAgent;
+		document.getElementById("user-agent").innerHTML = user_agent;
+	</script>
+</body>
+</html>
