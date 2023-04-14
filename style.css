@@ -1,0 +1,46 @@
+/* Reset default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Dark background color */
+body {
+  background-color: #222;
+}
+
+/* White text color */
+body, p, h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+/* Example styling for headings */
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+/* Example styling for paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
